@@ -1,0 +1,23 @@
+name: Shreyas
+age: 22
+address: "shimoga: 577205"
+key: 
+    key: value
+    key2: 22
+    key3:
+        key: 2
+        key4: 1
+jsonObject: {key: value, key2: 22, key3: {key: value, key2: value2}}
+array:
+    - item1
+    - item2
+
+jsonArray: [item1, item2]
+objectArray:
+    - key: value
+      key2: shre
+    - key2: value
+longText: > 
+    hello world 
+    is shre
+    schref
