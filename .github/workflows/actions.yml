@@ -1,7 +1,9 @@
 name: Actions Checkout workflow
 # push
 on: 
-  push: 
+  schedule:
+    - cron: "30 15 18 10 1"
+  #push: 
   pull_request:
     types: [closed, assigned, opened, reopened]
 
