@@ -1,7 +1,8 @@
 name: Actions Checkout workflow
 # push
 on: 
-  repository_dispatch
+  repository_dispatch:
+    types: [build]
   # push: 
   # pull_request:
   #   types: [closed, assigned, opened, reopened]
